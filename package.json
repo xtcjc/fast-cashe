@@ -1,0 +1,33 @@
+{
+  "name": "fast-cashe",
+  "version": "0.0.1",
+  "description": "前端缓存工具,防止内存泄漏",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release":"webpack",
+    "example":"http-server -p 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xtcjc/fast-cashe.git"
+  },
+  "keywords": [
+    "fast-cashe"
+  ],
+  "author": "https://github.com/xtcjc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xtcjc/fast-cashe/issues"
+  },
+  "homepage": "https://github.com/xtcjc/fast-cashe#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6"
+  }
+}
